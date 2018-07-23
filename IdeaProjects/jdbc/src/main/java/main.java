@@ -4,6 +4,7 @@ public class main {
 
     public static void main(String[] args) throws SQLException {
         Connection con = null;
+
         if(null == (con = JDBC.InitConn("db"))){ return;}
 
         // Create Query
